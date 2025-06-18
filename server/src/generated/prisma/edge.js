@@ -131,7 +131,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/sarumonkey9/Desktop/EarlyZ/server/src/generated/prisma",
+      "value": "/Users/jaynicolas/PJ/Projects/EarlyZ/server/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -140,17 +140,16 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "debian-openssl-3.0.x",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/sarumonkey9/Desktop/EarlyZ/server/prisma/schema.prisma",
+    "sourceFilePath": "/Users/jaynicolas/PJ/Projects/EarlyZ/server/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.8.2",
@@ -159,6 +158,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {

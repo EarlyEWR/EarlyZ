@@ -1,0 +1,6 @@
+.bookForms {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    width: 35%;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
+.addButton {
+    padding: 5px;
+    font-family: 'Kosugi';
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color: blue;
+    transition: ease-in-out 0.3s;
+}
+
+.inputField {
+    padding: 10px;
+}
+
+.addBookInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 35px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.addBookForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.addBookDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}

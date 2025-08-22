@@ -26,3 +26,13 @@ model Book {
   author      String
   isbn        String     @unique
 }
+
+model Checkout {
+  id         Int        @id @default(autoincrement())
+  book       Book       @realtion(fields: [], references:[id])
+  bookId     Int
+  user       User       @realtion(fields: [bookId], references:[id])
+  userId     Int        
+  checkoutDate  DateTime @default(now())
+  returnDate    DateTime?
+}
